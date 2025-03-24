@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Profil Twitch</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #3e2769, #2a0845);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+            animation: bgAnimation 10s infinite alternate;
+        }
+        @keyframes bgAnimation {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+        }
+        .container {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid white;
+            margin-bottom: 10px;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        .links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px auto;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+            background: #502e85;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        .links a:hover {
+            background: #772ce8;
+            transform: scale(1.1);
+        }
+        .links img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://images-ext-1.discordapp.net/external/fYMW9dDzEOdZM8ITz5g18xKate-eDzJrx3C5LZvrOv4/%3Fdr%3D9640%26refresh_token%3Dbe8c5eba%26x-expires%3D1743008400%26x-signature%3DtZlBaJrSFpQr79Xo6Sqi46tDlqo%253D%26t%3D4d5b0474%26ps%3D13740610%26shp%3Da5d48078%26shcp%3D81f88b70%26idc%3Duseast5/https/p16-sign-useast2a.tiktokcdn.com/tos-useast2a-avt-0068-euttp/67f21b82eb885da22c37fdbfb75d94c9~tplv-tiktokx-cropcenter%3A720%3A720.jpeg?format=webp" alt="Photo de Profil">
+        <h2>👑 Elkarimoo 👑</h2>
+        <div class="links">
+            <a href="https://www.twitch.tv/elkarimolive" target="_blank"><img src="https://img.freepik.com/vecteurs-premium/logo-twitch_578229-259.jpg?semt=ais_hybrid" alt="Twitch">Twitch</a>
+            <a href="https://youtube.com/@elkarimomed?si=RL98WKDPZraAt4zD" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube">YouTube</a>
+            <a href="https://x.com/elkarimoo" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Twitter-new-logo.jpg" alt="Twitter">Twitter</a>
+            <a href="https://www.instagram.com/elkarimolive/?igsh=YmQ2bThvdzg5NWxz&utm_source=qr#" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">Instagram</a>
+            <a href="https://discord.gg/WrvAy3TezR" target="_blank"><img src="https://c.clc2l.com/t/d/i/discord-4OXyS2.png" alt="Discord">Discord</a>
+            <a href="https://www.tiktok.com/@elkarimolive?_t=ZN-8uxM8NTY3bq&_r=1" target="_blank"><img src="https://static.vecteezy.com/system/resources/previews/018/930/574/non_2x/tiktok-logo-tikok-icon-transparent-tikok-app-logo-free-png.png" alt="Discord">TikTok</a>
+        </div> Tout droit reservés à Elkrimoo , 2025 | Usage des logos appartients à leurs propriéteaires respectifs.
+    </div>
+</body>
+</html>
